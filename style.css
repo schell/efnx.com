@@ -1,0 +1,241 @@
+/*
+ * Globals
+ */
+
+body {
+  color: #555;
+  font-size: 1em;
+  background-color:#f9f9f9;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-weight: normal;
+  color: #333;
+}
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  margin-bottom:3em;
+}
+
+.callout {
+  padding-top:15px;
+}
+
+.sig-bubble {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+
+.sig-bubble h3 {
+    padding-top:10px;
+}
+
+.sig-bubble :before {
+  color:#e5e5e5;
+  position: absolute;
+  top:20%;
+  left:0px;
+  margin-left:-10px;
+  width: 0;
+  height: 0;
+  content: " ";
+  border-top:    10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right:  10px solid;
+}
+.sig-bubble :after {
+  color:#fff;
+  position: absolute;
+  top:20%;
+  left:0px;
+  margin-left:-8px;
+  width: 0;
+  height: 0;
+  content: " ";
+  border-top:    10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right:  10px solid;
+}
+
+.blog-masthead .container {
+}
+
+/* Nav links */
+.nav li a {
+}
+.nav li a:hover {
+  background-color:transparent;
+  text-decoration:underline;
+}
+
+.blog-nav {
+  border-left:1px solid #e5e5e5;
+}
+
+.blog-sidebar a {
+  font-size:1.2em;
+}
+
+/* Active state gets a caret at the left */
+.blog-nav .active:before {
+  color:#e5e5e5;
+  position: absolute;
+  top:50%;
+  margin-top:-5px;
+  width: 0;
+  height: 0;
+  content: " ";
+  border-top:  5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left:   5px solid;
+}
+.blog-nav .active:after {
+  color:white;
+  position: absolute;
+  top:50%;
+  left:-2px;
+  margin-top:-5px;
+  width: 0;
+  height: 0;
+  content: " ";
+  border-top:  5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left:   5px solid;
+}
+
+.sidebar-module .external-links {
+  padding-left:15px;
+}
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.word-bubble {
+  padding-top:3em;
+  background-color:#fff;
+  border-radius: 10px;
+  border:1px solid #e5e5e5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding:0 0 1em 0;
+  color: #999;
+  text-align: center;
+}
+
+.blog-footer a:hover {
+  text-decoration:none;
+}
+
+.blog-footer .box :before {
+  color:#e5e5e5;
+  position: absolute;
+  left:50%;
+  margin-left:-16px;
+  width:0;
+  height:0;
+  content:" ";
+  border-top:  16px solid;
+  border-left: 16px solid transparent;
+  border-right:16px solid transparent;
+}
+.blog-footer .box :after {
+  color:white;
+  position: absolute;
+  left:50%;
+  margin-left:-16px;
+  margin-top:-2px;
+  width: 0;
+  height: 0;
+  content: " ";
+  border-top:   16px solid;
+  border-left:  16px solid transparent;
+  border-right: 16px solid transparent;
+}
